@@ -50,7 +50,7 @@ struct ColorPickerView: View {
                         Circle()
                             .stroke(Color.white, lineWidth: 7)
                         Circle()
-                            .stroke(selectedColor == colorCase ? Color.gray : Color.clear, lineWidth: 2)
+                            .stroke(selectedColor == colorCase ? Color.lightGreen : Color.clear, lineWidth: 2)
                     }
                 }
         }
